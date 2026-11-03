@@ -1,0 +1,11 @@
+{
+  "name": "rahman-family-tree",
+  "version": "1.0.0",
+  "description": "ITT588 Lab Work 4 - Family heritage viewer built with HTML, CSS, JavaScript and MVC",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node tests/model.test.mjs"
+  },
+  "license": "MIT"
+}

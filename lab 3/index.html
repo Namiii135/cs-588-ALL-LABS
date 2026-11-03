@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAFE PLACE MY</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Nunito+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="SAFE PLACE MY home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 4 7v8c0 7.5 5 13.2 12 15 7-1.8 12-7.5 12-15V7z" fill="var(--purple)"/><path d="M16 22s-6-3.7-6-8a3.6 3.6 0 0 1 6-2.4A3.6 3.6 0 0 1 22 14c0 4.300-6 8-6 8z" fill="var(--surface)"/></svg>
+      SAFE PLACE MY
+    </a>
+    <button class="btn ghost small menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#what-is">What Is</a>
+      <a href="#hotline">Hotline</a>
+      <a href="#law">Law Enforcement</a>
+      <a href="#enforcer">Enforcer</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn exit small" href="https://www.google.com.my" id="quickExit">Quick exit</a>
+    <button class="btn ghost small" id="themeBtn" type="button" aria-label="Switch between dark and light mode">Dark mode</button>  
+  </div>
+</header>
+
+<main id="top">
+  <section class="band blue hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Domestic and gender-based violence in Malaysia</p>
+        <h1>You are not alone, and help is closer than it feels.</h1>
+        <p class="lead">This site explains what domestic and gender-based violence (GBV) look like, who to call, what the law says, and who is there to enforce it.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#hotline">Find a hotline</a>
+          <a class="btn ghost" href="#what-is">What counts as abuse?</a>
+        </div>
+      </div>
+      <aside class="emergency" aria-label="Emergency numbers">
+        <span class="tag">In danger right now?</span>
+        <ul>
+          <li>
+            <div class="who">Police<small>999 on any phone, or 112 from a mobile</small></div>
+            <div class="num-row"><span class="num">999</span><button class="btn small ghost copy" data-copy="999">Copy</button></div>
+          </li>
+          <li>
+            <div class="who">Talian Kasih<small>Government helpline run by JKM</small></div>
+            <div class="num-row"><span class="num">15999</span><button class="btn small ghost copy" data-copy="15999">Copy</button></div>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="band" id="what-is">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What Is</p>
+        <h2>What is domestic violence and gender-based violence?</h2>
+        <p class="lead">Domestic violence is abuse by someone in your family or household. GBV is harm aimed at a person because of their gender. Both can happen to anyone, and both go beyond physical injury.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <span class="icon-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 11V5a2 2 0 0 1 4 0v5M11 10V4a2 2 0 0 1 4 0v6M15 10V6a2 2 0 0 1 4 0v8a7 7 0 0 1-7 7h-1a6 6 0 0 1-5-3l-3-5a2 2 0 0 1 3-2l2 2"/></svg></span>
+          <h3>Physical</h3>
+          <p>Hitting, pushing, choking, burning, or blocking you from leaving a room or the house.</p>
+        </article>
+        <article class="card">
+          <span class="icon-dot p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.5 7.2L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></span>
+          <h3>Emotional and psychological</h3>
+          <p>Constant insults, threats, humiliation, jealousy, or making you doubt your own memory and worth.</p>
+        </article>
+        <article class="card">
+          <span class="icon-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="3"/><path d="M2 10h20M6 15h4"/></svg></span>
+          <h3>Economic</h3>
+          <p>Taking your income, forbidding you to work, hiding money, or refusing to pay for food and basic needs.</p>
+        </article>
+        <article class="card">
+          <span class="icon-dot p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg></span>
+          <h3>Sexual</h3>
+          <p>Any sexual act without your consent, including within a marriage or relationship.</p>
+        </article>
+        <article class="card">
+          <span class="icon-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+          <h3>Digital</h3>
+          <p>Tracking your phone, reading your messages, sharing private images, or harassing you online.</p>
+        </article>
+        <article class="card">
+          <span class="icon-dot p"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span>
+          <h3>Gender-based</h3>
+          <p>Harassment, stalking, or control linked to someone's gender, at home, at work, in public, or online.</p>
+        </article>
+      </div>
+
+      <div class="two-col">
+        <div class="panel">
+          <h3>Signs that a relationship may be abusive</h3>
+          <ul class="checks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>You feel afraid of how they will react.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>They control who you see, where you go, or what you spend.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>They blame you for their anger or hurt you and then apologise.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>They threaten you, your children, or your pets.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>You hide bruises or make excuses for them.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Common myths</h3>
+          <div class="myth"><b>Myth:</b> It is a private family matter.<br>It is a crime, and the law gives you ways to be protected.</div>
+          <div class="myth"><b>Myth:</b> If it was that bad, they would just leave.<br>Leaving can be the most dangerous time. Money, children, and fear all play a part.</div>
+          <div class="myth"><b>Myth:</b> Only women are victims.<br>The 2017 amendment to the Domestic Violence Act protects family members of any gender.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band purple" id="hotline">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Hotline</p>
+        <h2>Who to call, and when</h2>
+        <p class="lead">Pick the line that fits. If you are in immediate danger, call 999 first.</p>
+        <p class="now" id="nowLine" aria-live="off"></p>
+      </div>
+      <div class="chips" role="group" aria-label="Filter hotlines">
+        <button class="chip" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" data-filter="women" aria-pressed="false">Women and children</button>
+        <button class="chip" data-filter="child" aria-pressed="false">Children and youth</button>
+        <button class="chip" data-filter="support" aria-pressed="false">Emotional support</button>
+      </div>
+      <div class="grid" id="hotGrid">
+        <article class="card hot" data-tags="all women child support">
+          <span class="pill">Government</span>
+          <h3>Talian Kasih</h3>
+          <div class="num-row"><span class="num">15999</span><button class="btn small ghost copy" data-copy="15999">Copy</button></div>
+          <p>Helpline run by the Department of Social Welfare (JKM). Also on WhatsApp.</p>
+          <div class="num-row"><span class="meta">WhatsApp 019-261 5999</span><button class="btn small ghost copy" data-copy="0192615999">Copy</button></div>
+        </article>
+        <article class="card hot" data-tags="all women support">
+          <span class="pill p">NGO</span>
+          <h3>WAO TINA</h3>
+          <div class="num-row"><span class="num">03-3000 8858</span><button class="btn small ghost copy" data-copy="0330008858">Copy</button></div>
+          <p>Women's Aid Organisation. Counsellors for women and children. SMS 018-988 8058.</p>
+        </article>
+        <article class="card hot" data-tags="all women support">
+          <span class="pill p">NGO</span>
+          <h3>AWAM Telenita</h3>
+          <div class="num-row"><span class="num">016-237 4221</span><button class="btn small ghost copy" data-copy="0162374221">Copy</button></div>
+          <p>Legal information and counselling. Second line 016-228 4221.</p>
+          <span class="meta">Monday to Friday, 9:30 am to 5:30 pm</span>
+          <span class="meta" id="awamStatus"></span>
+        </article>
+        <article class="card hot" data-tags="all women">
+          <span class="pill p">NGO</span>
+          <h3>WCC Penang</h3>
+          <div class="num-row"><span class="num">011-3108 4001</span><button class="btn small ghost copy" data-copy="01131084001">Copy</button></div>
+          <p>Women's Centre for Change. Support for women and children.</p>
+        </article>
+        <article class="card hot" data-tags="all women">
+          <span class="pill p">NGO</span>
+          <h3>Pusat Perkhidmatan Wanita</h3>
+          <div class="num-row"><span class="num">016-439 0698</span><button class="btn small ghost copy" data-copy="0164390698">Copy</button></div>
+          <p>Counselling for women and children.</p>
+        </article>
+        <article class="card hot" data-tags="all support">
+          <span class="pill p">Volunteer line</span>
+          <h3>Befrienders Kuala Lumpur</h3>
+          <div class="num-row"><span class="num">03-7627 2929</span><button class="btn small ghost copy" data-copy="0376272929">Copy</button></div>
+          <p>Someone to listen when you feel overwhelmed or hopeless.</p>
+        </article>
+        <article class="card hot" data-tags="all child">
+          <span class="pill p">Children and youth</span>
+          <h3>Buddy Bear Helpline</h3>
+          <div class="num-row"><span class="num">1800 18 2327</span><button class="btn small ghost copy" data-copy="1800182327">Copy</button></div>
+          <p>Free line for children and young people.</p>
+        </article>
+        <article class="card hot" data-tags="all support">
+          <span class="pill p">Volunteer line</span>
+          <h3>Sneham and MIASA</h3>
+          <div class="num-row"><span class="num">1-800-22-5757</span><button class="btn small ghost copy" data-copy="1800225757">Copy</button></div>
+          <p>Sneham Welfare Organisation Malaysia. MIASA crisis helpline: 1-800-18-0066.</p>
+        </article>
+      </div>
+      <div class="panel" style="margin-top:1.5rem">
+        <h3>Browsing safely</h3>
+        <p style="color:var(--muted)">If someone checks your phone or computer, use a private or incognito window, clear your history after visiting, and save numbers under a different name. The Quick exit button at the top of every page opens a neutral site.</p>
+        <div class="btn-row">
+          <button class="btn small" type="button" id="safetyBtn">Safety checklist</button>
+          <button class="btn small ghost" type="button" id="printBtn">Printable hotline list</button>
+        </div>
+      </div>
+      <p class="note">Numbers were checked in October 2026 against findahelpline.com and AWAM's website. Lines and hours can change, so confirm with the organisation if a call does not connect.</p>
+    </div>
+  </section>
+
+  <section class="band" id="law">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Law Enforcement</p>
+        <h2>What the law says</h2>
+        <p class="lead">Malaysian law treats domestic violence and GBV as crimes. These are the main Acts you will hear about.</p>
+      </div>
+      <div class="law-list">
+        <div class="law"><div class="act">Domestic Violence Act 1994<small>Act 521, amended 2017</small></div><p>Lets victims get protection orders. After the 2017 amendment it covers psychological abuse, harassment by any medium such as text messages, and all family members regardless of gender. Breaching a protection order is an offence, with a fine and possible jail time.</p></div>
+        <div class="law"><div class="act">Penal Code<small>Act 574</small></div><p>Covers assault, causing hurt, criminal intimidation, rape, and other sexual offences. Police can investigate these whether or not a protection order exists.</p></div>
+        <div class="law"><div class="act">Child Act 2001<small>Act 611</small></div><p>Protects anyone under 18 from abuse, neglect, and abandonment, and sets out how children in need of protection are cared for.</p></div>
+        <div class="law"><div class="act">Sexual Offences Against Children Act 2017<small>Act 792</small></div><p>Creates specific offences for sexual crimes against children and sets out how child witnesses are supported in court.</p></div>
+        <div class="law"><div class="act">Anti-Sexual Harassment Act 2022<small>Act 840</small></div><p>Set up the Tribunal for Anti-Sexual Harassment, where a person can seek a remedy for sexual harassment without going through a full criminal case.</p></div>
+      </div>
+
+      <div class="two-col">
+        <div class="panel">
+          <h3>Getting a protection order</h3>
+          <ol class="steps">
+            <li><div><strong>Get to safety and get care</strong><span>Go to a trusted place. If you are hurt, visit a government hospital. Many have a One-Stop Crisis Centre.</span></div></li>
+            <li><div><strong>Make a police report</strong><span>You can do this at any police station. Ask for a copy of your report.</span></div></li>
+            <li><div><strong>Ask for an Emergency Protection Order</strong><span>A social welfare officer can issue one, including on weekends. It lasts 7 days and needs no court application.</span></div></li>
+            <li><div><strong>Apply to the court</strong><span>The court can grant an interim protection order while your case is heard, then a longer protection order.</span></div></li>
+            <li><div><strong>Report any breach</strong><span>If the order is ignored, tell the police straight away.</span></div></li>
+          </ol>
+        </div>
+        <div class="panel">
+          <h3>Good to know</h3>
+          <ul class="checks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Keep screenshots, medical reports, photos, and messages somewhere the abuser cannot reach.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>You can ask for legal help from the Legal Aid Department or an NGO such as AWAM or WAO.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Family matters for Muslims can also involve the Syariah courts. An NGO can explain which route fits your case.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>This page is general information, not legal advice. Check the Acts or speak to a lawyer for your situation.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band blue" id="enforcer">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Enforcer</p>
+        <h2>Who acts when you ask for help</h2>
+        <p class="lead">Several agencies share the work of protecting victims and holding abusers to account.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Royal Malaysia Police (PDRM)</h3>
+          <p>Takes your report and investigates. The D11 division handles sexual, women, and child investigations, and many districts have dedicated officers.</p>
+        </article>
+        <article class="card">
+          <h3>Department of Social Welfare (JKM)</h3>
+          <p>Protection officers can issue Emergency Protection Orders, arrange shelter, and support children at risk.</p>
+        </article>
+        <article class="card">
+          <h3>Government hospitals</h3>
+          <p>Treat injuries, document them for evidence, and refer you on. One-Stop Crisis Centres bring medical, police, and welfare help together.</p>
+        </article>
+        <article class="card">
+          <h3>The courts</h3>
+          <p>Grant protection orders and hear criminal cases. Syariah courts handle certain family matters for Muslims.</p>
+        </article>
+        <article class="card">
+          <h3>Legal Aid Department</h3>
+          <p>Gives legal advice and, for those who qualify, help with representation in court.</p>
+        </article>
+        <article class="card">
+          <h3>NGOs and shelters</h3>
+          <p>WAO, AWAM, WCC Penang and others offer counselling, legal information, safe housing, and someone to go with you to the police or court.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2>Get in touch</h2>
+        <p class="lead">Reach an organisation directly, or leave feedback about this site.</p>
+      </div>
+      <div class="two-col" style="margin-top:0">
+        <div class="panel">
+          <h3>Organisations</h3>
+          <ul class="contact-list">
+            <li><strong>AWAM (All Women's Action Society)</strong><span class="sel">03-7877 4221</span><span class="sel">awam@awam.org.my</span><small>Office enquiries. For the helpline see the Hotline section.</small></li>
+            <li><strong>WAO (Women's Aid Organisation)</strong><span class="sel">03-3000 8858</span><small>TINA hotline</small></li>
+            <li><strong>Talian Kasih (JKM)</strong><span class="sel">15999</span><small>WhatsApp 019-261 5999</small></li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Send feedback</h3>
+          <form id="feedback" novalidate>
+            <label for="fname">Your name (optional)<input id="fname" type="text" autocomplete="off"></label>
+            <label for="fgmail">Your Gmail<input id="fgmail" type="email" placeholder="yourname@gmail.com" autocomplete="off"></label>
+            <label for="ftopic">Topic
+              <select id="ftopic">
+                <option>Suggest a resource</option>
+                <option>Report a wrong number</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label for="fmsg">Message<textarea id="fmsg" maxlength="500" placeholder="Tell us what to add or fix."></textarea><span class="count" id="fcount">0 / 500</span></label>
+            <button class="btn" type="submit">Send</button>
+            <div class="status" id="fstatus" role="status" hidden></div>
+          </form>
+          <p class="note" style="margin-top:1rem">Do not use this form to ask for emergency help. Call 999 or 15999.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>SAFE PLACE MY</strong>
+    <span>A student project for ITT588 Front-End Technology, Lab Work 3. Information only, not legal or medical advice.</span>
+    <span>In danger now? Call <strong>999</strong>. Need support? Call <strong>Talian Kasih 15999</strong>.</span>
+  </div>
+</footer>
+
+<dialog id="infoDialog" aria-labelledby="dialogTitle">
+  <div class="dialog-inner">
+    <h3 id="dialogTitle"></h3>
+    <div id="dialogBody"></div>
+    <div class="btn-row"><button class="btn" type="button" id="dialogClose">Close</button></div>
+  </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
